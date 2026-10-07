@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Canberk Erkmen</title>
+<meta name="description" content="Canberk Erkmen — personal site.">
+<meta name="theme-color" content="#14161c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋</text></svg>">
+<style>
+  :root {
+    --bg: #14161c;
+    --text: #ebe8e2;
+    --muted: #9a9ca5;
+    --line: #2a2d37;
+    --accent: #8fb4ff;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+  }
+  main {
+    width: 100%;
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.6rem, 9vw, 4.5rem);
+    line-height: 1.02;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+  p {
+    margin: 0 0 2.25rem;
+    max-width: 32rem;
+    font-size: 1.15rem;
+    color: var(--muted);
+  }
+  nav { display: flex; gap: 1.5rem; }
+  a {
+    color: var(--text);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--line);
+    transition: color .15s, border-color .15s;
+  }
+  a:hover { color: var(--accent); border-color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+  @media (prefers-reduced-motion: reduce) { a { transition: none; } }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Canberk Erkmen</h1>
+    <p>Software & DevOps Engineer building cloud-native platforms on Kubernetes, with a focus on automation, architecture, and developer experience.</p>
+    <nav>
+      <a href="https://github.com/canberkerkmen">GitHub</a>
+      <a href="https://www.linkedin.com/in/canberkerkmen">LinkedIn</a>
+    </nav>
+  </main>
+</body>
+</html>
